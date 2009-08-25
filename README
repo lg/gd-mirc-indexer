@@ -1,0 +1,32 @@
+Larry's mIRC Indexer
+Larry Gadea, trivex@gmail.com
+http://www.github.com/larrygadea
+http://twitter.com/lg
+
+Licensed under BSD. See the included LICENSE file.
+
+Use Google Desktop Search to search through your mIRC two-person 
+private messages (PMs). Plugin source code is available from 
+trivex.net.
+
+To install, follow these instructions:
+   1. Extract the zip archive onto your computer.
+   2. Move the "LarrysmIRCIndexer.dll" and "LarrysmIRCIndexer.mrc"
+      files into your main mIRC directory.
+   3. Start mIRC and type the following:
+      /load -rs LarrysmIRCIndexer.mrc
+   4. Agree to mIRC running the OnLoad code.
+   5. Agree to the registration with Google Desktop Search.
+   6. Private conversations will now be logged with GDS!
+
+To uninstall, follow these instructions:
+
+   1. Start mIRC and type the following:
+      /unload -rs LarrysmIRCIndexer.mrc
+   2. Delete the "LarrysmIRCIndexer.dll" and "LarrysmIRCIndexer.mrc"
+      files.
+   3. Thats it!
+
+If you have any comments/concerns/questions/suggestions, whatever,
+feel free to contact me at trivex@gmail.com.
+
